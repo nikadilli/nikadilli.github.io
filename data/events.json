@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "e1",
+      "title": "Halloween Dielničky",
+      "date": "2025-11-02",
+      "time": "16:00",
+      "category": "jednorazové",
+      "type": "once",
+      "description": "Detské tvorivé dielničky k Halloweenu."
+    },
+    {
+      "id": "e2",
+      "title": "Tehotenský klub",
+      "date": "2025-11-04",
+      "time": "11:30",
+      "category": "jednorazové",
+      "type": "once",
+      "description": "Stretnutie pre tehotné mamičky."
+    },
+    {
+      "id": "e3",
+      "title": "Offline party",
+      "date": "2025-11-16",
+      "category": "jednorazové",
+      "type": "once",
+      "description": "Spoločenské stretnutie komunity."
+    },
+    {
+      "id": "e4",
+      "title": "Podpora nosenia",
+      "date": "2025-11-18",
+      "time": "11:30-14:00",
+      "category": "jednorazové",
+      "type": "once",
+      "description": "Podpora pri nosení bábätiek."
+    },
+    {
+      "id": "r1",
+      "title": "Cvičenie bábätiek (3-6 m)",
+      "date": "2025-11-01",
+      "time": "10:00-12:00",
+      "category": "pravidelné",
+      "type": "regular",
+      "description": "Cvičenia pre bábätká a rodičov."
+    },
+    {
+      "id": "r2",
+      "title": "Angličtina malí",
+      "date": "2025-11-01",
+      "time": "16:00",
+      "category": "pravidelné",
+      "type": "regular",
+      "description": "Jazykové aktivity pre najmenších."
+    },
+    {
+      "id": "r3",
+      "title": "Pilates",
+      "date": "2025-11-05",
+      "time": "18:00-19:00",
+      "category": "pravidelné",
+      "type": "regular",
+      "description": "Cvičenie pilates pre dospelých."
+    }
+  ]
+}

@@ -1,29 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nivienka – Komunitné centrum</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nivenka - komunitné centrum</title>
+<link rel="icon" href="assets/images/logo.jpg">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header>
-  <h1>Nivienka</h1>
-  <p>Komunitné centrum</p>
-</header>
+<div class="container">
+  <header class="header">
+    <div class="logo card"><img src="assets/images/logo.jpg" alt="Nivenka" style="width:100%;height:100%;object-fit:cover"></div>
+    <div>
+      <div class="title">November<br><small style="font-size:26px; color:var(--muted)">v Nivenke</small></div>
+      <div class="nav">
+        <a href="index.html">O nás</a>
+        <a href="events.html">Akcie</a>
+        <a href="gallery.html">Fotogaléria</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
+    </div>
+  </header>
 
-<section id="calendar"></section>
-<section id="event-list"></section>
+  <main class="grid">
+    <section class="card">
+      <h2>O nás</h2>
+      <p>Komunitné centrum Nivenka — miesto pre rodiny, mamičky a deti. Organizujeme pravidelné aktivity aj jednorazové podujatia.</p>
+      <img src="assets/images/plagat.png" alt="plagat" style="width:100%;border-radius:8px;margin-top:12px;">
+    </section>
 
-<div id="popup" class="popup hidden">
-  <div class="popup-content">
-    <span id="close-popup" class="close">&times;</span>
-    <h2 id="popup-title"></h2>
-    <p id="popup-date"></p>
-    <p id="popup-description"></p>
-  </div>
+    <aside class="card">
+      <h3>Rýchle kontakty</h3>
+      <p class="meta">Email: info@nivenka.sk<br>Tel: +421 900 000 000</p>
+      <h3 style="margin-top:12px">Adresa</h3>
+      <p class="meta">Bratislava - príkladná 12</p>
+    </aside>
+  </main>
+
+  <footer class="footer">© Nivenka · komunitné centrum</footer>
 </div>
-
-<script src="script.js"></script>
 </body>
 </html>
